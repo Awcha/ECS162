@@ -1,0 +1,57 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Restaurant Tinder Game</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+
+    <!-- import the webpage's stylesheet -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="///at.alicdn.com/t/font_1869046_p8jmwoydkb.css">
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to</h1>
+      <h1>The Restaurant Tinder Game</h1>
+
+     <!--  <i class="iconfont">&#xe772;</i>
+      <i class="iconfont">&#xe69f;</i>
+      <i class="iconfont">&#xe69d;</i>
+      <i class="iconfont">&#xe6b6;</i>-->
+      
+      
+      <h2>Whenever you are ready, please click the start new game to play. </h2>
+    </header>
+
+    <main>
+      <button id = "submita">Start new game</button>
+      <div id = "search1">
+        <p id="url"></p>
+        
+        <form action="/action_page.php" method="get">
+          <label for="browser">Keywords: </label>
+          <input list="browsers" name="browser" id="browser">
+          <datalist id="browsers">
+          </datalist>
+      </form>
+               
+        <p>
+          Location: <input type="text" id="location">
+        </p>
+
+        <button id = "submitb">Get restaurants!</button>
+      </div>
+      <div id="messages"></div>
+      
+    </main>
+  </body>
+</html>

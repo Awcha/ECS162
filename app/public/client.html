@@ -1,0 +1,71 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to Glitch!</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="///at.alicdn.com/t/font_1869046_p8jmwoydkb.css">
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      
+    </header>
+
+    <main>
+      <div id= "wait">Waiting...</div>
+      
+      <div id = "game">
+        <div id = "progress"> 
+          Please Choose...
+        </div>
+        <div id = "middle">
+          <span id = "left">
+            <img id="img1"/>
+            <div id="name1"></div>           
+            <div id="rating1"></div>
+            <div id="review1"></div>
+            <div id="range1"></div>
+  
+            <div id="button1" class="client_botton"> <i class="iconfont" id = "hearta">&hearts;</i>I choose A</div>
+          </span>
+          
+          <span id = "right">            
+            <img id="img2"/>
+            <div id="name2"></div>           
+            <div id="rating2"></div>
+            <div id="review2"></div>
+            <div id="range2"></div>
+            <div id="button2" class="client_botton"> <i class="iconfont" id = "heartb">&hearts;</i>I choose B</div>
+          </span>
+          
+        </div>
+        <p id = "winner"></p>
+        <div id="messages"></div>
+      </div>
+      <div id = "endround">
+        <p id = "roundwinners"></p>
+        <button id = "startnext">Start Next Round</button>
+        <p id = "sn_msg"></p>
+      </div>
+      <div id = "endgame">
+      </div>
+    </main>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:2em;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>

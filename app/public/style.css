@@ -1,0 +1,167 @@
+
+* {
+  box-sizing: border-box;
+  background-color:#ff6b6b;
+  font-family: 'Open Sans';
+}
+
+body {
+  margin: auto;
+  margin-top:100px;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+header{
+  text-align: center;
+  margin:auto;
+}
+h1{
+  line-height:35px;
+}
+h2{
+  font-size:15px;
+}
+main{
+  margin-top:100px;
+}
+
+
+input {
+  border: 2px solid black;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 50em;
+}
+#submita, #submitb{
+  padding:10px 20px;
+  font-size:20px;
+  border: 2px solid black;
+}
+
+#search1 {
+  display: none;
+  margin-left: -2%;
+}
+
+#progress {
+  font-weight: 700;
+  font-size: 25px;  
+}
+
+#game {
+  display: none;
+}
+
+.client_botton {
+  width: 100px;
+  height: 30px;
+  background-color: lightgreen;
+  margin-left:40%;
+  
+}
+#hearta,#heartb{
+  background-color:lightgreen;
+}
+
+#left {
+  margin-left: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background:white;
+  width: 30%;
+}
+
+#right {
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  background:white;
+  width: 34%;
+}
+
+#img1, #img2 {
+  width: 100%;
+  min-height:250px;
+  max-height:250px;
+}
+
+
+#middle {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+}
+
+#endround {
+   display: none;
+}
+
+#browser, #location, #newMsg{
+    max-width:40%;
+}
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 1869048 */
+  src: url('//at.alicdn.com/t/font_1869048_6r5jw333hxu.eot');
+  src: url('//at.alicdn.com/t/font_1869048_6r5jw333hxu.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1869048_6r5jw333hxu.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1869048_6r5jw333hxu.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1869048_6r5jw333hxu.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1869048_6r5jw333hxu.svg#iconfont') format('svg');
+}
+
+#rating2{
+  background:white;
+}
+#rating1{
+  background:white;
+}
+#review1{
+  background:white;
+}
+#review2{
+  background:white;
+}
+#range1{
+  background:white;
+}
+#range2{
+  background:white;
+}
+#name1{
+  font-weight: 700;
+  font-size: 25px;
+  background:white;
+}
+#name2{
+  font-weight: 700;
+  font-size: 25px;
+  background:white;
+}
+.iconfont{
+  background:white;
+}
+/* Display on Moblie Phone */
+@media only screen and (max-width: 600px) {
+  header{
+    margin:10%;
+  }
+  #browser, #location, #newMsg{
+    max-width:80%
+  }
+  .client_botton {
+    margin-left:15%;
+  }
+  #img1, #img2 {
+  width: 140px;
+  height:140px;
+}
+  #middle, #right{
+    max-width:100%;
+  }
+
+}
